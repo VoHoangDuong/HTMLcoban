@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        .Name{width: 70pt;}
+        h1{font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif   ;}
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+<body>
+    <h1>Order Form</h1>
+    <p>What up you like to buy?</p>
+    <select class="Name" name = "type">
+        <option type="text">A</option>
+        <option type="text">B</option>
+    </select>
+    <p>How many would you like to order?</p>
+    <form method="get" action="simpleform.html">
+        <input type="radio" name="money" id="A"> 1 - $10<br>
+        <input type="radio" name="money" id="B"> 2 - $20<br>
+        <input type="radio" name="money" id="C"> 3 - $25<br>
+    <p>Name <span style="color: red;">*</span></p>
+    <input type="text" name="First Name" placeholder="First Name">
+    <input type="text" name="Last Name" placeholder="Last Name"><br>
+    <p>Email</p>
+    <input type="text" size="50pt"><br>
+    <p>Phone Number</p>
+    <input type="text" size="5pt"> - <input type="text" size="5pt"> - <input type="text" size="5pt"><br><br>
+    <input type="submit" name="send" value="Submit">
+
+
+    </form>
+    
+    
+</body>
+</html>
